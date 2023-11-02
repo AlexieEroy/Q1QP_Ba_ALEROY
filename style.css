@@ -26,6 +26,7 @@ body {
     background: #B0C69B;
     width: 100vw;
     height: 78px;
+    position: fixed;
 }   
 /*sets the position, font color, font size, and font style of the tabs*/
 #tabs {
@@ -54,7 +55,7 @@ body {
 }
 /*sets the color, size, background color, and the transition of the tabs when you hover them*/
 #tabs a:hover {
-    padding: 5px;
+    padding: 0.6vh 1vw;
     background-color: #225F4F;
     color: #f3f3f3;
     transition: 0.3s;
@@ -65,13 +66,14 @@ body {
 .banner {
     background-image: url(Pictures/bg\ for\ proj.jpg);
     width: 100%;
-    height: 200px;
+    height: 50vh;
     text-align: center;
 }
 /*sets the position, margin and size of the headings*/
 .heading {
-    padding-top: 25px;
+    padding-top: 50px;
     margin-bottom: 10px;
+    margin-top: 5.5vh;
 }
 /*sets the color, size, text transformation, and font weight of the title*/
 #title {
@@ -98,7 +100,7 @@ body {
     text-decoration: none;
     color: #225F4F;
     margin: 1vw;
-    padding: 5px;
+    padding: 0.5vw 0.1vh;
     border: #1F3B3B solid 1px;
 }
 /*sets the background color, padding, transition, and the font color of the text when you hover them*/
@@ -119,12 +121,12 @@ body {
     align-items: center;
     justify-content: space-between;
     bottom: 0px;
-    position: relative;
+    position: fixed;
     font-size: large;
 }
 /*sets the margin and color of the socials*/
 .socials {
-    margin-left: 1.5vw;
+    margin-left: 2.5vw;
     color: white;
 }
 /*sets the margin of the social media logos so they won't be directly next to eachother*/
@@ -133,7 +135,7 @@ body {
 }
 /*sets the margin and the color of the contents in about*/
 .about {
-    margin-right: 1.5vw;
+    margin-right: 2.5vw;
     color: white;
     
 }
@@ -152,10 +154,10 @@ ul {
 /*sets the margin, position of the contents, and the font size and family*/
 .content {
     text-align: justify;
-    font-size: large;
+    font-size: 3vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 35px;
-    margin-bottom: 11.4vw;
+    margin-top: 10vh;
+    margin-bottom: 50vh;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -182,6 +184,10 @@ ul {
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.description-content {
+    font-size: 3vh;
+}
 /*sets the margin and position of the image*/
 .graph img {
     margin-left: 10px;
@@ -192,8 +198,28 @@ ul {
     font-size: 60px;
     font-weight: 30px;
 }
+/*PROFILES (images of people)*/
 /*sets the margin of the image and its position*/
-.profile img {
-    margin-left: 8vw;
+.profile1 img {
+    margin-left: 4vw;
+    margin-right: 4vw;
     float: left;
+    width: 45vw;
+    height: 60vh;
+}
+
+.profile2 img {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    float: left;
+    width: 40vw;
+    height: 70vh;
+}
+
+.profile3 img {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    float: left;
+    width: 40vw;
+    height: 90vh;
 }
