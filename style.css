@@ -3,9 +3,9 @@
     margin: 0px;
 }
 
-body {
+ body {
     background-image: url(Pictures/banner.jpg);
-    background-size: 100vw 280px;
+    background-size: 100vw 40vh;
     background-repeat: no-repeat;
 }
 
@@ -64,9 +64,6 @@ body {
 /*BANNER*/
 /*sets the picture, position, and size of the banner*/
 .banner {
-    background-image: url(Pictures/bg\ for\ proj.jpg);
-    width: 100%;
-    height: 50vh;
     text-align: center;
 }
 /*sets the position, margin and size of the headings*/
@@ -156,10 +153,10 @@ ul {
     text-align: justify;
     font-size: 3vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 10vh;
+    margin-top: 15vh;
     margin-bottom: 50vh;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 /*sets the type of list style to disc, a bullet point*/
 ul {
@@ -172,11 +169,11 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 11.4vw;
-    margin-top: 35px;
+    margin-bottom: 25vh;
+    margin-top: 14vh;
     margin-left: 10px;
     margin-right: 10px;   
-    width: 100vw;
+    width: 80vw;
 }
 /*sets the position of the text, the font size and the font family*/
 .description {
